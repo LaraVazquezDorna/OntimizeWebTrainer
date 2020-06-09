@@ -3,6 +3,7 @@ import {CommonModule} from '@angular/common';
 import {OntimizeWebModule} from "ontimize-web-ngx" ;
 import {EmployeesRoutingModule} from './employees-routing.module';
 import {EmployeesHomeComponent} from "./employees-home/employees-home.component";
+import {EmployeesDetailComponent} from "./employees-detail/employees-detail.component";
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import {EmployeesHomeComponent} from "./employees-home/employees-home.component"
         EmployeesRoutingModule
     ],
     declarations: [
-        EmployeesHomeComponent
+        EmployeesHomeComponent,
+        EmployeesDetailComponent
     ]
 })
 export class EmployeesModule {
