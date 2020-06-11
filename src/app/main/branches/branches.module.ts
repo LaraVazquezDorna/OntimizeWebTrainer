@@ -4,6 +4,7 @@ import {CommonModule} from '@angular/common';
 import {BranchesRoutingModule} from './branches-routing.module';
 import {OntimizeWebModule} from "ontimize-web-ngx";
 import {BranchesHomeComponent} from "./branches-home/branches-home.component";
+import {BranchesDetailComponent} from "./branches-detail/branches-detail.component";
 
 @NgModule({
     imports: [
@@ -12,7 +13,8 @@ import {BranchesHomeComponent} from "./branches-home/branches-home.component";
         BranchesRoutingModule
     ],
     declarations: [
-        BranchesHomeComponent
+        BranchesHomeComponent,
+        BranchesDetailComponent
     ]
 })
 export class BranchesModule {
